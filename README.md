@@ -1,0 +1,2 @@
+# easySwiftExtends
+Swift classes extended
