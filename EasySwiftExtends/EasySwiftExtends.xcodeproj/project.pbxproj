@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79A48E091EBB9DAA007C041F /* ESUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A48E081EBB9DAA007C041F /* ESUIColor.swift */; };
+		79A48E0B1EBBD087007C041F /* ESUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A48E0A1EBBD087007C041F /* ESUILabel.swift */; };
+		79A48E0D1EBBD754007C041F /* ESUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A48E0C1EBBD754007C041F /* ESUITextField.swift */; };
+		79A48E0F1EBBD904007C041F /* ESOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A48E0E1EBBD904007C041F /* ESOptional.swift */; };
+		79A48E111EBBD9D5007C041F /* ESUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A48E101EBBD9D5007C041F /* ESUIView.swift */; };
+		79A48E131EBBDB5C007C041F /* ESUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A48E121EBBDB5C007C041F /* ESUIImage.swift */; };
 		79B3CEFD1EBA328F008B08BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3CEFC1EBA328F008B08BB /* AppDelegate.swift */; };
 		79B3CEFF1EBA328F008B08BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B3CEFE1EBA328F008B08BB /* ViewController.swift */; };
 		79B3CF021EBA328F008B08BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B3CF001EBA328F008B08BB /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79A48E081EBB9DAA007C041F /* ESUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUIColor.swift; sourceTree = "<group>"; };
+		79A48E0A1EBBD087007C041F /* ESUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUILabel.swift; sourceTree = "<group>"; };
+		79A48E0C1EBBD754007C041F /* ESUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUITextField.swift; sourceTree = "<group>"; };
+		79A48E0E1EBBD904007C041F /* ESOptional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESOptional.swift; sourceTree = "<group>"; };
+		79A48E101EBBD9D5007C041F /* ESUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUIView.swift; sourceTree = "<group>"; };
+		79A48E121EBBDB5C007C041F /* ESUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESUIImage.swift; sourceTree = "<group>"; };
 		79B3CEF91EBA328F008B08BB /* EasySwiftExtends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasySwiftExtends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B3CEFC1EBA328F008B08BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79B3CEFE1EBA328F008B08BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +72,12 @@
 				79B3CF031EBA328F008B08BB /* Assets.xcassets */,
 				79B3CF051EBA328F008B08BB /* LaunchScreen.storyboard */,
 				79B3CF081EBA328F008B08BB /* Info.plist */,
+				79A48E081EBB9DAA007C041F /* ESUIColor.swift */,
+				79A48E0A1EBBD087007C041F /* ESUILabel.swift */,
+				79A48E0C1EBBD754007C041F /* ESUITextField.swift */,
+				79A48E0E1EBBD904007C041F /* ESOptional.swift */,
+				79A48E101EBBD9D5007C041F /* ESUIView.swift */,
+				79A48E121EBBDB5C007C041F /* ESUIImage.swift */,
 			);
 			path = EasySwiftExtends;
 			sourceTree = "<group>";
@@ -137,6 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A48E0B1EBBD087007C041F /* ESUILabel.swift in Sources */,
+				79A48E0F1EBBD904007C041F /* ESOptional.swift in Sources */,
+				79A48E111EBBD9D5007C041F /* ESUIView.swift in Sources */,
+				79A48E131EBBDB5C007C041F /* ESUIImage.swift in Sources */,
+				79A48E0D1EBBD754007C041F /* ESUITextField.swift in Sources */,
+				79A48E091EBB9DAA007C041F /* ESUIColor.swift in Sources */,
 				79B3CEFF1EBA328F008B08BB /* ViewController.swift in Sources */,
 				79B3CEFD1EBA328F008B08BB /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +328,7 @@
 				79B3CF0D1EBA328F008B08BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
