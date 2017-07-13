@@ -17,6 +17,6 @@ extension UIView{
     }
     
     public func roundedCorners(_ topright:Float, topleft:Float,bottomleft:Float, BottomRight:Float){
-    
+        //Ebano
     }
 }
