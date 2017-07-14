@@ -10,9 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var vista: UIView!
+    @IBOutlet weak var textflield: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Color Hexadecimal
+        self.vista.backgroundColor = UIColor(hex: "#CCCCCC")
+        
+        self.label.setHtmlText("<strong>Camilo</strong> López")
+        //self.textflield.setHtmlText("<strong>Camilo</strong> López")
+        
+        self.textflield.setUnderline(color: UIColor.blue, width: 1.0)
+        self.textflield.setImageLeft("fav")
+        self.textflield.setImageRight("fav")
     }
 
     override func didReceiveMemoryWarning() {
