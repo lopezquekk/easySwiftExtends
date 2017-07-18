@@ -17,7 +17,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Color Hexadecimal
-        self.vista.backgroundColor = UIColor(hex: "#CCCCCC")
+        //self.vista.backgroundColor = UIColor(hex: "#CCCCCC")
+        self.vista.roundedCorners([.allCorners],width: 10,height: 10)
+        //self.vista.roundedAllCorners(r: 10)
+        self.vista.setShadowsContainer(color: UIColor.black.cgColor, shadowOpacity: 5, shadowOffset: CGSize.init(width: 3.0, height: 3.0), shadowRadius: 5)
         
         self.label.setHtmlText("<strong>Camilo</strong> López")
         //self.textflield.setHtmlText("<strong>Camilo</strong> López")
